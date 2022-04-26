@@ -1,7 +1,7 @@
 import StripeCheckout from 'react-stripe-checkout';
 import {useState,useEffect} from 'react'; 
 import axios from 'axios';
-const KEY = "pk_test_51KrNvTKj1uOJF8gqXIyPJpGcVoe3ERk7doxeMZvXCaRliEdj6ALJsczhNVhSIyB4DukrtxrB9xi7iNvvJeuBH60P00CqZjRF3u"
+const KEY = 
 const Pay = () =>{
     const [stripeT,setstriptT] = useState(null);
     const onToken = (token) =>{
